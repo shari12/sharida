@@ -1,0 +1,115 @@
+.body{
+  background-color: blue;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.allCards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#divImgBq, #divImgRed, #divImgData{
+  display: flex;
+  justify-content: center;
+}
+
+ #imgRed, #imgData{
+  width: 220px;
+  height: 200px;
+}
+#imgBq{
+  width: 220px;
+  height: 220px;
+}
+
+.containerAbout {
+  display: flex;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.containerAbout .row {
+  margin: 0 auto;
+}
+.tech{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.basico{
+  border: rosybrown solid;
+  border-radius: 15px;
+  width: 425px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.basico1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.inter{
+  border: tan solid;
+  width: 425px;
+  border: rosybrown solid;
+  border-radius: 15px;
+  width: 425px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.inter1{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#git, #fire, #my, #mon,#mat,#nod,#rea{
+  width: 9%;
+}
+#js,#html,#css,#figma{
+  width: 7%;
+}
+#boo,#figma{
+  width: 5%;
+  
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#imgGmail,#imgGitHub,
+#imgLinkenid {
+  width: 25px;
+  height: 25px;
+  
+}

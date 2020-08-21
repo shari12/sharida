@@ -1,0 +1,3 @@
+  addEventListener('DOMContentLoaded',()=>{
+  M.AutoInit();
+})
